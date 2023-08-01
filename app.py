@@ -186,6 +186,7 @@ pohyby_all = get_transport(pohyby)
 ### - initiate dash application usin externa theme
 # MORPH, DARKLY, SLATE
 app = Dash(__name__, external_stylesheets=[dbc.themes.MORPH])
+server = app.server
 
 ### - define sidebar with inputs
 sidebar = html.Div(

@@ -8,8 +8,8 @@ The main purpose of the Logio App is to help users understand and optimize manuf
 ## Requirements
 To run the Logio App, you need the following libraries and dependencies:
 
-Python 3\
-Dash library\
+Python 3 \
+Dash library \
 Dash Bootstrap Components library\
 Plotly Express library\
 NumPy library\

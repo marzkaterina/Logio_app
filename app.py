@@ -41,7 +41,7 @@ def read_data(file):
     '''
     ### - merge path
     #path = os.path.join(Path.cwd(), file)
-    path = file
+    path = Path(__file__).parent / file
     
     ## - load data using ';' as separator
 

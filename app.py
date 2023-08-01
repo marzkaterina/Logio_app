@@ -389,8 +389,8 @@ def update_transport_chart(plant, cost, start_date, end_date):
     df_temp = df.loc[df['ID_zavodu_cilove'] == plant, :]
     ### - set figure and create barplot
     fig = go.Figure(data=[
-        go.Bar(name='přepravená \n hmotnost [kg]', x=df_temp['ID_zavodu_vychozi'], y=df_temp['Objem_v_kg']),
-        go.Bar(name='odhadovaná cena \n přepravy [czk]', x=df_temp['ID_zavodu_vychozi'], y=df_temp['Vzdalenost'] * float(cost))
+        go.Bar(name='přepravená hmotnost [kg]', x=df_temp['ID_zavodu_vychozi'], y=df_temp['Objem_v_kg']),
+        go.Bar(name='odhadovaná cena přepravy [czk]', x=df_temp['ID_zavodu_vychozi'], y=df_temp['Vzdalenost'] * float(cost))
     ])
     # Change the bar mode
     fig.update_layout(barmode='group',

@@ -399,7 +399,14 @@ def update_transport_chart(plant, cost, start_date, end_date):
                       'y':0.9,
                       'x':0.5,
                       'xanchor': 'center',
-                      'yanchor': 'top'})
+                      'yanchor': 'top'},
+                     legend=dict(
+                         orientation="h",
+                         yanchor="bottom",
+                         y=1.02,
+                         xanchor="right",
+                         x=1
+))
 
     return fig
     

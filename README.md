@@ -32,20 +32,20 @@ vyroba.txt: Production data.
 ## Data Processing
 The app performs several data processing functions before displaying the data on the dashboard:
 
-read_data(file): Reads data from the given file name and returns it as a Pandas DataFrame. The function uses different separators (',' or '\t') based on the number of columns in the data. \\
-get_product_price(produkty, matice_vyroby, komponenty): Calculates the manufacturing cost for each product based on its components and prices of components.\\
-get_production_costs(produkty_all, vyroba): Calculates the manufacturing cost for manufactured products by multiplying the manufacturing cost of each product by the quantity manufactured.
-get_transport(pohyby): Calculates the distance between plants for component transport.
-Dashboard Layout
-The dashboard layout consists of the following components:
+read_data(file): Reads data from the given file name and returns it as a Pandas DataFrame. The function uses different separators (',' or '\t') based on the number of columns in the data. \
+get_product_price(produkty, matice_vyroby, komponenty): Calculates the manufacturing cost for each product based on its components and prices of components.\
+get_production_costs(produkty_all, vyroba): Calculates the manufacturing cost for manufactured products by multiplying the manufacturing cost of each product by the quantity manufactured.\
+get_transport(pohyby): Calculates the distance between plants for component transport.\
+**Dashboard Layout**\
+The dashboard layout consists of the following components:\
 
-Sidebar: It contains filters for date range, plant selection, and an input field for the cost per kilometer.
-Table: Displays a table of production data based on the selected date range.
-Bar Chart: Shows the production quantities of products in the selected plant.
-Bar Chart: Shows the transportation details of components to the selected plant, including the transported weight and estimated transportation cost.
-App Execution
-To run the Logio App, execute the script containing the code. The app will be launched, and the dashboard can be accessed through the local server at http://127.0.0.1:8050/.
-The application was deployed using https://dashboard.render.com/. Application can be launched as stand-alone API on https://logio-ukol-marzova-2023.onrender.com/.
+Sidebar: It contains filters for date range, plant selection, and an input field for the cost per kilometer.\
+Table: Displays a table of production data based on the selected date range.\
+Bar Chart: Shows the production quantities of products in the selected plant.\
+Bar Chart: Shows the transportation details of components to the selected plant, including the transported weight and estimated transportation cost.\
+**App Execution**\
+To run the Logio App, execute the script containing the code. The app will be launched, and the dashboard can be accessed through the local server at http://127.0.0.1:8050/.\
+The application was deployed using https://dashboard.render.com/. Application can be launched as stand-alone API on https://logio-ukol-marzova-2023.onrender.com/.\
 
 ## Usage
 Select a date range in the sidebar using the date picker to filter the production data.

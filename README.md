@@ -46,6 +46,8 @@ Bar Chart: Shows the transportation details of components to the selected plant,
 App Execution
 To run the Logio App, execute the script containing the code. The app will be launched, and the dashboard can be accessed through the local server at http://127.0.0.1:8050/.
 
+The application was deployed using https://dashboard.render.com/. Application can be launched as stand-alone API on https://logio-ukol-marzova-2023.onrender.com/.
+
 ## Usage
 Select a date range in the sidebar using the date picker to filter the production data.
 Use the dropdown in the sidebar to select a specific production plant.

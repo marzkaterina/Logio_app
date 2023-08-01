@@ -40,7 +40,8 @@ def read_data(file):
 
     '''
     ### - merge path
-    path = os.path.join(Path.cwd(), file)
+    #path = os.path.join(Path.cwd(), file)
+    path = file
     
     ## - load data using ';' as separator
 

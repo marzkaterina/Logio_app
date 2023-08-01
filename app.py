@@ -403,7 +403,7 @@ def update_transport_chart(plant, cost, start_date, end_date):
                      legend=dict(
                          orientation="h",
                          yanchor="bottom",
-                         y=1.02,
+                         y=0.1,
                          xanchor="right",
                          x=1
 ))

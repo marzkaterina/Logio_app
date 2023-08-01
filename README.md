@@ -13,7 +13,7 @@ Dash library \
 Dash Bootstrap Components library\
 Plotly Express library\
 NumPy library\
-Pandas library\
+Pandas library
 
 ## Data Sources
 The Logio App reads data from the following CSV and TXT files:\
@@ -27,7 +27,7 @@ sklady.csv: Warehouse data.\
 stav_skladu_08_2018.csv: Warehouse status data (as of August 2018).\
 zavody.csv: Plant data.\
 matice_vyroby.txt: Manufacturing matrix data.\
-vyroba.txt: Production data.\
+vyroba.txt: Production data.
 
 ## Data Processing
 The app performs several data processing functions before displaying the data on the dashboard:

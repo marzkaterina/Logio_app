@@ -45,7 +45,6 @@ Bar Chart: Shows the production quantities of products in the selected plant.
 Bar Chart: Shows the transportation details of components to the selected plant, including the transported weight and estimated transportation cost.
 App Execution
 To run the Logio App, execute the script containing the code. The app will be launched, and the dashboard can be accessed through the local server at http://127.0.0.1:8050/.
-
 The application was deployed using https://dashboard.render.com/. Application can be launched as stand-alone API on https://logio-ukol-marzova-2023.onrender.com/.
 
 ## Usage

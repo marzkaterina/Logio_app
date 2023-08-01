@@ -1,14 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-dash
-dash_bootstrap_templates
-Plzen - Prerov      381 km
-Prerov - Ostrava    83 km
-Ostrava - Plzen     463 km
-ZP10 Plzen
-ZP20 Prerov
-ZP30 Ostrava
+Logio app - Katerina Marzova
 '''
 
 import os

@@ -32,8 +32,8 @@ vyroba.txt: Production data.
 ## Data Processing
 The app performs several data processing functions before displaying the data on the dashboard:
 
-read_data(file): Reads data from the given file name and returns it as a Pandas DataFrame. The function uses different separators (',' or '\t') based on the number of columns in the data.
-get_product_price(produkty, matice_vyroby, komponenty): Calculates the manufacturing cost for each product based on its components and prices of components.
+read_data(file): Reads data from the given file name and returns it as a Pandas DataFrame. The function uses different separators (',' or '\t') based on the number of columns in the data. \\
+get_product_price(produkty, matice_vyroby, komponenty): Calculates the manufacturing cost for each product based on its components and prices of components.\\
 get_production_costs(produkty_all, vyroba): Calculates the manufacturing cost for manufactured products by multiplying the manufacturing cost of each product by the quantity manufactured.
 get_transport(pohyby): Calculates the distance between plants for component transport.
 Dashboard Layout
